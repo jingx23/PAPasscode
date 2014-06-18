@@ -212,10 +212,6 @@
     [passcodeTextField becomeFirstResponder];
 }
 
-- (NSUInteger)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskPortrait|UIInterfaceOrientationMaskPortraitUpsideDown;
-}
-
 - (void)cancel:(id)sender {
     [_delegate PAPasscodeViewControllerDidCancel:self];
 }
