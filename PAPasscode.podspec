@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name     = 'PAPasscode'
-  s.version  = '0.2'
+  s.version  = '0.4'
   s.summary  = 'A Passcode View Controller for iOS similar to the one in Settings.app'
-  s.homepage = 'https://github.com/dhennessy/PAPasscode'
+  s.homepage = 'https://github.com/jingx23/PAPasscode'
   s.authors  = { 'Denis Hennessy' => 'denis@hennessynet.com' }
-  s.source   = { :git => 'https://github.com/dhennessy/PAPasscode.git', :tag => '0.3' } 
+  s.source   = { :git => 'https://github.com/jingx23/PAPasscode.git', :tag => '0.4' } 
   s.platform = :ios
   s.requires_arc = true
 
